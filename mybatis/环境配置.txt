@@ -1,0 +1,6 @@
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+  type-aliases-package: com.dao.mapper
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  
